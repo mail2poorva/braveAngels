@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffd8d8;
+  font-family: "Overpass", sans-serif;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.nav h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 50%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-ul li {
+  list-style: none;
+}
+
+.nav-ul li a {
+  color: #ff4a4a;
+  text-decoration: none;
+}
+
+.defence {
+  width: 100%;
+  height: 180vh;
+}
+
+.defence-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 30px 0;
+  padding-top: 60px;
+  font-size: 33px;
+  text-align: center;
+}
+.h4 {
+  color: #ed3d3d;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+iframe {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 80%;
+}
+.video {
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  gap: 5%;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.video-ele {
+  /* border: 2px solid #e894ab; */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fae4e9;
+  transition: transform 0.17s;
+}
+
+.video-ele:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffd8d8;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  margin: 0 auto;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 180px;
+}
+
+.footer-first {
+  width: 24%;
+  text-align: right;
+}
+
+.footer-last {
+  width: 24%;
+}

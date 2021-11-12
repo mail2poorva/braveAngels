@@ -1,0 +1,260 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffd8d8;
+  font-family: "Overpass", sans-serif;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.nav h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-ul li {
+  list-style: none;
+}
+
+.nav-ul li a {
+  color: #bd3535;
+  text-decoration: none;
+}
+
+.story-container {
+  padding: 2rem 3rem;
+  margin: 0 10%;
+  border-radius: 5px;
+  height: 150vh;
+}
+
+.story-container .main-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  color: #a81c42;
+}
+
+.story-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 2rem;
+}
+
+.story-btn-container .story-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #fffdfe;
+  padding: 0.5rem 0.5rem;
+  width: 5rem;
+  border: 2px solid #fcbecf;
+  border-radius: 5px;
+  margin-right: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.story-btn-container .comments-btn {
+  width: 7rem;
+}
+
+.story-btn-container .share-btn {
+  width: 6rem;
+}
+
+.story-body {
+  background-color: #fff0f4;
+  padding: 2.5rem 1.5rem;
+  border-radius: 7px;
+  margin-bottom: 2rem;
+}
+
+.story-body .story-content {
+  line-height: 1.5rem;
+  font-size: 1.05rem;
+  padding: 2rem 2rem;
+  color: #88243f;
+}
+
+.story-owner-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.story-owner-details h3 {
+  margin: 0;
+}
+
+.story-owner-details-credentials {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.story-owner-details-credentials h3 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.15rem;
+}
+
+.story-owner-details-credentials p {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.footer {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Overpass", sans-serif;
+  margin: 0 auto;
+  background-color: #ffd8d8;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 180px;
+}
+
+.footer-first {
+  width: 24%;
+  font-size: 1.1rem;
+  text-align: right;
+  font-weight: 600;
+}
+
+.footer-middle {
+  font-weight: normal;
+}
+
+.footer-last {
+  font-weight: normal;
+  width: 24%;
+}
+
+.owner-pic {
+  width: 5.8%;
+  border-radius: 100px;
+  z-index: 99;
+  margin-left: 29.3px;
+}
+
+.modal-box-form {
+  height: 56vh;
+  padding: 1rem 1rem;
+  width: 78%;
+  margin-left: 10%;
+  background-color: #e2e2e2;
+  z-index: 100;
+  position: absolute;
+}
+
+.modal-box-form a {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+}
+
+label {
+  display: inline-block;
+}
+
+label input {
+  border: 0;
+}
+
+label textarea {
+  border: 0;
+}
+
+.mailUs {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mailUs p {
+  padding: 1rem;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #ff5a76;
+}
+
+.mailUs .email {
+  text-decoration: none;
+  color: white;
+}
+
+.mailUs .email:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=story.css.map */
